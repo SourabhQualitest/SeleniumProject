@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Flipkart Testing]" parallel="methods">
+  <test name="HomePageTesting(failed)" parallel="methods">
+    <classes>
+      <class name="com.selenium.test.HomePageTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.selenium.test.HomePageTest -->
+      <class name="com.selenium.test.CartTest">
+        <methods>
+          <include name="validateCountInCart"/>
+        </methods>
+      </class> <!-- com.selenium.test.CartTest -->
+    </classes>
+  </test> <!-- HomePageTesting(failed) -->
+</suite> <!-- Failed suite [Flipkart Testing] -->

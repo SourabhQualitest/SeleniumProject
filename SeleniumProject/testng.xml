@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart Testing" thread-count="1" parallel="methods">
+	<test name="HomePageTesting">
+	<!-- 	<groups>
+			<run>
+				<include name="flipKart" />
+			</run>
+		</groups> -->
+		<classes>
+			<class name="com.selenium.test.HomePageTest" />
+			<class name="com.selenium.test.CartTest" />
+		</classes>
+	</test>
+
+</suite>
